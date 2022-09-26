@@ -1,0 +1,178 @@
+.v-chip .v-chip__content {
+  width: 100%!important;
+  display: inline-grid!important;
+}
+.table_header_Class{
+  font-size: 10px!important;
+  text-align: center!important;
+  padding: 5px!important;
+  border-bottom: 1px solid #e0e0e0!important;
+}
+.table_body_Class{
+  font-size: 10px!important;
+  text-align: center!important;
+  padding: 5px!important;
+}
+.nowrap_Class{
+  white-space: nowrap!important;
+  /*padding: 14px!important;*/
+}
+.table_cell_width65{
+  min-width:113px!important;
+  max-width: 113px!important;
+}
+.table_cell_width240{
+  min-width:456px!important;
+}
+.table_cell_no_padding{
+  padding: 0 2px 0 2px!important;
+}
+.table_cell_padding10{
+  padding: 10px!important;
+}
+.tender_card_table tbody tr td{
+  padding-top:10px!important;
+  padding-bottom:10px!important;
+  min-width: 300px!important;
+}
+.tenderInfoBorders td {
+  border-right: 1px solid #E0E0E0;
+}
+.tenderInfoBorders th {
+  border-right: 1px solid #E0E0E0;
+}
+.tenderInfoBorders td:last-child{
+  border-right: none;
+}
+.tenderInfoBorders th:last-child{
+  border-right: none;
+}
+.inputPrice, .inputAlter {
+  text-align: center!important;
+  font-size: 10px!important;
+  line-height: 26px!important;
+  padding: 0!important;
+}
+.inputDateTerm{
+  text-align: center!important;
+  font-size: 10px!important;
+  line-height: 20px!important;
+  padding: 0!important;
+}
+.inputDateTerm .v-icon.v-icon{
+  font-size: 18px!important;
+}
+
+
+#inputAlter {
+  margin: 0 5px!important;
+}
+.offerTable .v-data-table{
+  table-layout: fixed!important;
+}
+
+.offerTable .v-data-table__wrapper table{
+  cursor: pointer!important;
+}
+
+.offerTable .v-data-table__wrapper table tbody .v-data-table__empty-wrapper td{
+  padding-top:10px!important;
+}
+
+.offerTable .v-data-table__wrapper table tbody tr td .v-input{
+  width: 100%;
+  min-height: 30px!important;
+  margin: auto!important;
+}
+
+.inputPrice input::-webkit-outer-spin-button,
+.inputPrice input::-webkit-inner-spin-button {
+  appearance: none!important;
+  -webkit-appearance: none!important;
+  -moz-appearance: none!important;
+}
+
+.offerTable .v-data-table__wrapper table tbody tr td .v-input__control{
+  height: 30px!important;
+}
+.offerTable .v-data-table__wrapper table tbody tr td .v-input__slot{
+  padding: 0 5px!important;
+  min-height: 30px!important;
+  margin: 0!important;
+}
+
+.offerTable .v-data-table__wrapper table tbody tr td .v-input fieldset{
+  height: 30px!important;
+  padding-left: 2px!important;
+  top: 0!important;
+}
+.offerTable .v-data-table__wrapper table .v-text-field__details{
+  display: none!important;
+}
+.offerTable .v-data-table__wrapper table .v-input__slot legend{
+  display: none!important;
+}
+
+.offerTable .v-data-table__wrapper table tbody tr td .inputDateTerm .v-input__slot{
+  padding: 0 0 0 5px!important;
+  min-height: 30px!important;
+  margin: 0!important;
+  width: 68px!important;
+}
+.inputCurrency {
+  text-align: center!important;
+  font-size: 10px!important;
+  line-height: 26px!important;
+  padding: 0!important;
+  width: 50px!important;
+}
+.inputCurrency .v-input__append-inner{
+  margin-top:4px!important;
+}
+.inputCurrency .v-input__append-inner .v-icon{
+  font-size: 18px!important;
+}
+.inputCurrency .v-input__append-inner .v-input__icon{
+  width: 18px!important;
+  min-width: 18px!important;
+}
+
+.offerTable .v-data-table__wrapper table tbody tr td .inputCurrency .v-input__slot{
+  padding: 0 0 0 5px!important;
+  min-height: 30px!important;
+  margin: 0!important;
+}
+
+#editDialog .v-text-field__details{
+  display: none!important;
+}
+#editDialog input::-webkit-outer-spin-button,
+#editDialog input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+#login_bin input::-webkit-outer-spin-button,
+#login_bin input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.padding5{
+  padding-left: 5px!important;
+  padding-right: 5px!important;
+}
+.offerTable .v-data-table__wrapper::-webkit-scrollbar {
+  height: 15px!important;
+  color: blue!important;
+  background-color: #fff!important;
+  border-bottom-left-radius: 4px!important;
+  border-bottom-right-radius: 4px!important;
+}
+
+.offerTable .v-data-table__wrapper::-webkit-scrollbar-thumb {
+  background: darkgray!important;
+  /*border-radius: 4px!important;*/
+  border-bottom-left-radius: 4px!important;
+  border-bottom-right-radius: 4px!important;
+}
+.offerTable .v-data-table__wrapper::-webkit-scrollbar-thumb:hover {
+  background: gray!important;
+}
